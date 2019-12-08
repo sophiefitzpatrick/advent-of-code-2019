@@ -30,8 +30,6 @@ fixed_gravity_assist_programme = find_position_0(
 )
 print(fixed_gravity_assist_programme)
 
-# answer: 10566835
-
 # part 2
 
 '''
@@ -52,5 +50,3 @@ def output_calculation(output):
 	return 'boop'
 
 print(output_calculation(output=19690720))
-
-# answer: 2347
