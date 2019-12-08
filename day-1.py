@@ -16,8 +16,6 @@ def fuel_requirement(masses):
 fuel_required = fuel_requirement(masses=masses)
 print(sum(fuel_required))
 
-# answer: 3376997
-
 # part 2
 def extra_fuel(mass):
 	# value of fuel_required is the higher value between mass and 0
@@ -28,5 +26,3 @@ def extra_fuel(mass):
 
 total_fuel = [extra_fuel(m) for m in masses]
 print(sum(total_fuel))
-
-# answer: 5062623
